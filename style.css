@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    background-color: white;
+    width:70% ;
+    margin: auto;
+    min-height:100vh ;
+    padding: 30px;
+    box-sizing: border-box;
+}
+h1{
+    font-family:sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea,button{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font: 100 1.2rem sans-serief;
+    border-radius: 5px;
+    outline: none; 
+    margin: 10px;
+}
+button{
+    background-color:#822e71;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ;
+}
+button:hover{
+    background-color: #302682;
+}
+.task{
+    background-color:#268273;
+    font: 100 1.2rem sans-serief;
+    padding:30px ;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 2vmax;
+    border-radius: 5px;
+}
+.task > div{
+    width: 100%;
+}
+.task span{
+    background-color:#26827361;
+}
+.deleteBtn{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size:1.6rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
